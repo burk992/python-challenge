@@ -80,8 +80,5 @@ with open(finatxt, 'w') as text:
     text.write("    Greatest Decrease in Profits: " + str(dec_date) + " ($" + str(greatest_dec_profit) + ")\n")
     text.write("----------------------------------------------------------\n")
 
-
-
 # now check the .csv file against the output
-# why are my numbers not adding up correctly
-# if I set initial profit to the first month's profit it almost comes close but still doesn't correctly calc greatest inc/dec in profit
+# everything is right but the average change... why? ?
